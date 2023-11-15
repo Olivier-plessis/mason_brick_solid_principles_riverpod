@@ -5,4 +5,3 @@ environment:
 
 dependencies:
   mason: ">=0.1.0-dev.51 <0.1.0"
-  path: ^1.8.3

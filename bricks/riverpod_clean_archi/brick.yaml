@@ -40,7 +40,3 @@ vars:
     type: boolean
     prompt: Does this feature need a new page?
     default: true
-  model:
-    type: boolean
-    prompt: Does this feature need models?
-    default: true
