@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_solid_principles_brick/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_solid_principles_brick/hooks/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_solid_principles_brick/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/__brick__/{{name.snakeCase()}}/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/__brick__/{{name.snakeCase()}}/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_core_brick/__brick__/{{name.snakeCase()}}/build" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_clean_archi/hooks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_clean_archi/hooks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/riverpod_clean_archi/hooks/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="7a9e481e-b85f-46cb-b24c-1895fb6a993c" />
+  </component>
+</module>

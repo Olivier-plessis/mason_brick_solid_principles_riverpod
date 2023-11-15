@@ -1,0 +1,8 @@
+name: riverpod_clean_archi_hooks
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+  path: ^1.8.3
