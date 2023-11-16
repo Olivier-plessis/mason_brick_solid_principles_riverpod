@@ -1,13 +1,6 @@
 name: riverpod_solid_principles
 description: A Riverpod clean architecture feature builder based on solid principles for Flutter projects.
 
-# The following defines the brick repository url.
-# Uncomment and update the following line before publishing the brick.
-# repository: https://github.com/my_org/my_repo
-
-# The following defines the version and build number for your brick.
-# A version number is three numbers separated by dots, like 1.2.34
-# followed by an optional build number (separated by a +).
 version: 0.1.0+1
 
 # The following defines the environment for the current brick.
@@ -28,7 +21,7 @@ environment:
 vars:
   name:
     type: string
-    default: my_app
+    default: flutter_app
     prompt: What is this project's name?
   org:
     type: string
@@ -36,7 +29,7 @@ vars:
     prompt: What is your org name?
   description:
     type: string
-    default: An awesome app
+    default: An awesome flutter app generate by mason
     prompt: What is the project description?
   publish:
     type: boolean

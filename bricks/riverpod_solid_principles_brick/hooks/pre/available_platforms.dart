@@ -11,6 +11,7 @@ enum AvailablePlatform {
   macos;
 
   const AvailablePlatform();
+  
   factory AvailablePlatform.fromString(String os) => switch (os) {
         'android' => AvailablePlatform.android,
         'ios' => AvailablePlatform.ios,
