@@ -10,6 +10,7 @@ A new brick created with the Mason CLI.
 
 - Set-up a base Flutter project with **up-to-date dependencies**
 - Customize the usage of Riverpod's ecosystem: codegen? hooks? freezed? We've got you covered
+- Select your platforms (android, ios, ...)
 - Use certain analysis customizations by default, with analysis_options.dart and flutter_lints (by default).
 - For the example, this brick generates a counter and a dark/light theme selector managed on Riverpod.
 

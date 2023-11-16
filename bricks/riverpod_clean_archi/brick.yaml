@@ -29,7 +29,7 @@ vars:
   appName:
     type: string
     description: Your app name
-    default: last_app
+    default: flutter_app
     prompt: What is your app name?
   feature_name:
     type: string
