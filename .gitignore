@@ -131,9 +131,8 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-.DS_Store
-
 bricks/.DS_Store
 bricks/riverpod_clean_archi/.DS_Store
 
 .DS_Store
+bricks/.idea
