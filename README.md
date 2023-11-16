@@ -1,6 +1,9 @@
-# 🏗️ mason_brick_solid_principles_riverpod
+# 🏗️ Mason bricks list
 
-This two bricks can generate feature folders and files for
+<p align="center">
+<img src="https://raw.githubusercontent.com/felangel/mason/master/assets/mason_full.png" height="125" alt="mason logo" />
+</p>
+This bricks can generate feature folders and files for
 **solid principles**, **clean architecture** and **riverpod geenrator**.
 
 ## Getting Started 🚀
