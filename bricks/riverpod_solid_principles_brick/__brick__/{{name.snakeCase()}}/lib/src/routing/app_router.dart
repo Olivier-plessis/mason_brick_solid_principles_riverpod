@@ -3,7 +3,7 @@ import 'package:go_router/go_router.dart';
 {{#codegen}}
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 {{/codegen}}
-import 'package:{{name.snakeCase()}}/src/feature/counter/presentation/counter_screen.dart';
+import 'package:{{name.snakeCase()}}/src/features/counter/presentation/counter_screen.dart';
 
 {{#codegen}}
 part 'app_router.g.dart';
