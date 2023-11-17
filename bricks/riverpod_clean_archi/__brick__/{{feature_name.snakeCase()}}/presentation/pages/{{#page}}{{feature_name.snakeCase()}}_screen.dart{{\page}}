@@ -1,11 +1,59 @@
 import 'package:flutter/material.dart';
+{{#hooks}}
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+{{/hooks}}
+{{^hooks}}
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+{{/hooks}}
 
-class {{feature_name.pascalCase()}}Page extends ConsumerWidget {
-  const {{feature_name.pascalCase()}}Page({super.key});
+{{#hooks}}
+{{#isStFullHook}}
+class {{feature_name.pascalCase()}}Screen extends StatefulHookConsumerWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() => _{{feature_name.pascalCase()}}ScreenState();
+}
+class _{{feature_name.pascalCase()}}ScreenState extends ConsumerState<{{feature_name.pascalCase()}}Screen> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+{{/isStFullHook}}
+{{^isStFullHook}}
+class {{feature_name.pascalCase()}}Screen extends HookConsumerWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return const Placeholder();
+  }
+}
+{{/isStFullHook}}
+{{/hooks}}
+
+{{#withoutHooks}}
+{{#isStFullWithoutHook}}
+class {{feature_name.pascalCase()}}Screen extends ConsumerStatefulWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() => _{{feature_name.pascalCase()}}ScreenState();
+}
+class _{{feature_name.pascalCase()}}ScreenState extends ConsumerState<{{feature_name.pascalCase()}}Screen> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
+{{/isStFullWithoutHook}}
+{{^isStFullWithoutHook}}
+class {{feature_name.pascalCase()}}Screen extends ConsumerWidget {
+  const {{feature_name.pascalCase()}}Screen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return Placeholder();
+    return const Placeholder();
   }
 }
+{{/isStFullWithoutHook}}
+{{/withoutHooks}}

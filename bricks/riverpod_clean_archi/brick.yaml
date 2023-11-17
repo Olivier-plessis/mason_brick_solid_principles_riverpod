@@ -40,3 +40,8 @@ vars:
     type: boolean
     prompt: Does this feature need a new page?
     default: true
+  isStateFull:
+    type: boolean
+    description: Make a isStateFull widget
+    default: true
+    prompt: is isStateFull?

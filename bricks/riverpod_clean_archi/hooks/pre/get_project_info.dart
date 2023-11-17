@@ -4,12 +4,24 @@ import 'package:mason/mason.dart';
 
 Future<void> getProjectInfo(HookContext context) async {
   final pubspec = _getPubspec(context);
+
   final usesHooks = await _uses('hooks_riverpod', file: pubspec);
   context.vars['hooks'] = usesHooks;
+  context.vars['withoutHooks'] = !usesHooks;
+
   final usesCodegen = await _uses('riverpod_generator', file: pubspec);
   context.vars['codegen'] = usesCodegen;
+
   final usesFreezed = await _uses('freezed', file: pubspec);
   context.vars['freezed'] = usesFreezed;
+
+  final isStateFull = context.vars['isStateFull'] as bool;
+
+  final isStateFullHook = usesHooks && isStateFull;
+  context.vars['isStFullHook'] = isStateFullHook;
+
+  final isStateFullNotHook = !usesHooks && isStateFull;
+  context.vars['isStFullWithoutHook'] = isStateFullNotHook;
 
   final anyCodegen = usesCodegen || usesFreezed;
   context.vars['anyCodegen'] = anyCodegen;
