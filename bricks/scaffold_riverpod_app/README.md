@@ -24,11 +24,11 @@ And dev dependencies, take a look @ [its dev depndencies](hooks/post/add_dev_dep
 
 Once you have Mason installed,
 
-you can add the **riverpod_solid_principles_brick** brick to the configuration by adding the following code to your **mason.yaml** file:
+you can add the **scaffold_riverpod_app** brick to the configuration by adding the following code to your **mason.yaml** file:
 
 ``` yaml
 bricks:
-  riverpod_solid_principles:
+  scaffold_riverpod_app:
     git:
       url: 'https://github.com/Olivier-plessis/mason_brick_solid_principles_riverpod'
       path: 'bricks/scaffold_riverpod_app'
