@@ -1,4 +1,4 @@
-# riverpod_solid_principles
+# scaffold_riverpod_app
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
@@ -6,7 +6,7 @@ A new brick created with the Mason CLI.
 
 ## Getting Started 🚀
 
- **riverpod_solid_principles_brick**, lets you :
+ **scaffold_riverpod_app**, lets you :
 
 - Set-up a base Flutter project with **up-to-date dependencies**
 - Customize the usage of Riverpod's ecosystem: codegen? hooks? freezed? We've got you covered
