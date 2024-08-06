@@ -31,7 +31,7 @@ bricks:
   riverpod_solid_principles:
     git:
       url: 'https://github.com/Olivier-plessis/mason_brick_solid_principles_riverpod'
-      path: 'bricks/riverpod_solid_principles_brick'
+      path: 'bricks/scaffold_riverpod_app'
 ```
 
 ## Usage 🕹️
@@ -45,7 +45,7 @@ mason get
 and
 
 ``` sh
-mason make riverpod_solid_principles
+mason make scaffold_riverpod_app
 ```
 
 ## Output 📦

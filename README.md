@@ -14,7 +14,7 @@ New to Mason? Read [the documentation][mason_doc_link] to learn how to spin up t
 
 this repo currently contains two bricks that I'm going to develop according to my needs and/or requests.
 
-### **riverpod_solid_principles_brick**: [documentation](bricks/riverpod_solid_principles_brick/README.md)
+### **scaffold_riverpod_app**: [documentation](bricks/scaffold_riverpod_app/README.md)
 
 ### **feature_brick**: [documentation](bricks/feature_brick/README.md)
 

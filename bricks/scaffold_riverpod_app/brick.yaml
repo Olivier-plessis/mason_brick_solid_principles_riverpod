@@ -1,4 +1,4 @@
-name: riverpod_solid_principles
+name: scaffold_riverpod_app
 description: A Riverpod clean architecture feature builder based on solid principles for Flutter projects.
 
 version: 0.1.0+1
