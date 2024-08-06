@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:{{appName.snakeCase()}}/src/features/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}.dart';
-import 'package:{{appName.snakeCase()}}/src/features/{{feature_name.snakeCase()}}/domain/repositories/{{feature_name.snakeCase()}}_repository.dart';
+import 'package:{{appName.snakeCase()}}/src/feature/{{feature_name.snakeCase()}}/domain/entities/{{feature_name.snakeCase()}}.dart';
+import 'package:{{appName.snakeCase()}}/src/feature/{{feature_name.snakeCase()}}/domain/repositories/{{feature_name.snakeCase()}}_repository.dart';
 
 
 final class {{feature_name.pascalCase()}}RepositoryImpl implements I{{feature_name.pascalCase()}}Repository {

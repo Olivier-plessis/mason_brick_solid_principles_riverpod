@@ -6,7 +6,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:{{name.snakeCase()}}/src/features/counter/presentation/counter_screen.dart';
 
 {{#codegen}}
-part '../../../../../../riverpod_solid_principles_brick/__brick__/{{name.snakeCase()}}/lib/src/routing/app_router.g.dart';
+part 'app_router.g.dart';
 enum AppRoute {
   home,
 }
