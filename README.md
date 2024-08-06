@@ -16,6 +16,6 @@ this repo currently contains two bricks that I'm going to develop according to m
 
 ### **riverpod_solid_principles_brick**: [documentation](bricks/riverpod_solid_principles_brick/README.md)
 
-### **riverpod_clean_archi**: [documentation](bricks/riverpod_clean_archi/README.md)
+### **feature_brick**: [documentation](bricks/feature_brick/README.md)
 
 [mason_doc_link]: https://docs.brickhub.dev/category/getting-started
