@@ -11,7 +11,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 {{/codegen}}
 
 {{#codegen}}
-part '../../../../../../../../../riverpod_solid_principles_brick/__brick__/{{name.snakeCase()}}/lib/src/features/counter/presentation/provider/counter_provider.g.dart';
+part 'counter_provider.g.dart';
 @riverpod
 class CounterNotifier extends _$CounterNotifier {
 @override

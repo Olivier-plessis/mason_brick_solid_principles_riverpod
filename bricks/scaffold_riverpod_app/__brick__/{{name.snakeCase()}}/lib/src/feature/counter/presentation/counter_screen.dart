@@ -6,7 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 {{/hooks}}
 
-import 'package:{{name.snakeCase()}}/src/features/counter/presentation/provider/counter_provider.dart';
+import 'package:{{name.snakeCase()}}/src/feature/counter/presentation/provider/counter_provider.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/theme_mode_controller.dart';
 
 import 'package:{{name.snakeCase()}}/src/common_widgets/custom_appbar_widget.dart';

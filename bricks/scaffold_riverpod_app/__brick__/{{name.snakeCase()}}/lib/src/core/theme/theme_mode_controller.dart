@@ -5,7 +5,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 
 
-part '../../../../../../../riverpod_solid_principles_brick/__brick__/{{name.snakeCase()}}/lib/src/core/theme/theme_mode_controller.g.dart';
+part 'theme_mode_controller.g.dart';
 
 {{#codegen}}
 @riverpod

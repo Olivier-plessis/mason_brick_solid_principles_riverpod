@@ -3,7 +3,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:{{name.snakeCase()}}/src/core/utils/logger_interceptor.dart';
 
 {{#codegen}}
-part '../../../../../../../riverpod_solid_principles_brick/__brick__/{{name.snakeCase()}}/lib/src/core/utils/dio_provider.g.dart';
+part 'dio_provider.g.dart';
 {{/codegen}}
 
 // TODO replace with your api url or create .env

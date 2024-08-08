@@ -3,13 +3,13 @@ import 'package:go_router/go_router.dart';
 {{#codegen}}
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 {{/codegen}}
-import 'package:{{name.snakeCase()}}/src/features/counter/presentation/counter_screen.dart';
-
+import 'package:{{name.snakeCase()}}/src/feature/counter/presentation/counter_screen.dart';
+import 'package:{{name.snakeCase()}}/router/route_constants.dart';
 {{#codegen}}
-part '../../../../../../riverpod_solid_principles/__brick__/{{name.snakeCase()}}/lib/src/router/app_router.g.dart';
-enum AppRoute {
-  home,
-}
+part 'app_router.g.dart';
+
+
+
 @Riverpod(keepAlive: true)
 GoRouter goRouter(GoRouterRef ref) {
   return GoRouter(

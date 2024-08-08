@@ -50,7 +50,7 @@ mason make feature_brick
 
 ``` sh
 lib/
-├── features
+├── feature
 │   ├── {{feature_name}}
 │   │   ├── data
 │   │   │   ├── sources

@@ -65,7 +65,7 @@ mason make scaffold_riverpod_app
 │   │       │   ├── dio_provider.dart
 │   │       │   ├── logger_interceptor.dart
 │   │       │   ├── observers.dart
-│   │   └── features
+│   │   └── feature
 │   │       ├── counter
 │   │       │   ├── ├── presentation
 │   │       │   │   ├──  ├── provider
