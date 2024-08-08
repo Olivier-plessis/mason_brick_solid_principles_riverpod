@@ -18,7 +18,7 @@ GoRouter goRouter(GoRouterRef ref) {
     routes: [
       GoRoute(
         path: '/',
-        name: AppRoute.home.name,
+        name: AppPage.home.name,
         builder: (context, state) => const CounterScreen(),
       ),
     ],
