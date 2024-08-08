@@ -71,8 +71,9 @@ mason make scaffold_riverpod_app
 │   │       │   │   ├──  ├── provider
 │   │       │   ├──         ├── counter_provider.dart
 │   │       │   ├── ├──  ├── counter_screen.dart
-│   │   └── routing
+│   │   └── router
 │   │       ├── app_router.dart // go_router
+│   │       ├── route_constants.dart // constants for go_router
 │   │   └── app.dart
 │   ├── main.dart
  ```

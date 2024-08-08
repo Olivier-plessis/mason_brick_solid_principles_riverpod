@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/dark_theme.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/light_theme.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/theme_mode_controller.dart';
-import 'package:{{name.snakeCase()}}/src/routing/app_router.dart';
+import 'package:{{name.snakeCase()}}/src/router/app_router.dart';
 
 class MainApp extends ConsumerWidget {
   const MainApp({super.key});
