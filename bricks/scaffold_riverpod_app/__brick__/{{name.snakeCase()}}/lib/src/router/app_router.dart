@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 {{/codegen}}
 import 'package:{{name.snakeCase()}}/src/feature/counter/presentation/counter_screen.dart';
-import 'package:{{name.snakeCase()}}/router/route_constants.dart';
+import 'package:{{name.snakeCase()}}/src/router/route_constants.dart';
 {{#codegen}}
 part 'app_router.g.dart';
 
