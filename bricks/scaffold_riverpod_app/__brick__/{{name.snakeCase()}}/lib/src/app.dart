@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/dark_theme.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/light_theme.dart';
 import 'package:{{name.snakeCase()}}/src/core/theme/theme_mode_controller.dart';
