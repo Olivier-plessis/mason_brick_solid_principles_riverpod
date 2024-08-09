@@ -7,6 +7,7 @@ Future<void> addDevDependencies(HookContext context) async {
 
   final freezed = context.vars['freezed'] as bool;
   final devCodegen = context.vars['devCodegen'] as bool;
+  final addDevDependencies = context.vars['add_dev_dependencies'] as String;
 
   final devDependencies = [
     if (devCodegen) 'build_runner',
@@ -20,6 +21,7 @@ Future<void> addDevDependencies(HookContext context) async {
     'logger',
     'mocktail',
     'riverpod_lint',
+    if (addDevDependencies.isNotEmpty) addDevDependencies
   ];
 
   final _ = await io.Process.run(

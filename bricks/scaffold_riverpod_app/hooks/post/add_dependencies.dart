@@ -8,6 +8,7 @@ Future<void> addDependencies(HookContext context) async {
   final hooks = context.vars['hooks'] as bool;
   final freezed = context.vars['freezed'] as bool;
   final codegen = context.vars['codegen'] as bool;
+   final addDependencies = context.vars['add_dependencies'] as String;
 
   final dependencies = [
     if (hooks) 'hooks_riverpod' else 'flutter_riverpod',
@@ -19,6 +20,7 @@ Future<void> addDependencies(HookContext context) async {
     'dio',
     'go_router',
     'flex_color_scheme',
+    if (addDependencies.isNotEmpty) addDependencies
   ];
 
   final _ = await io.Process.run(
