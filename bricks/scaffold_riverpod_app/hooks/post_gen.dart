@@ -7,6 +7,7 @@ import 'post/app_build_runner.dart';
 import 'post/creator_base_project.dart';
 import 'post/dart_formater.dart';
 import 'post/get_dependencies.dart';
+import 'post/move_generated_app.dart';
 
 Future<void> run(HookContext context) async {
   await executeAndLog(
@@ -41,6 +42,13 @@ Future<void> run(HookContext context) async {
       cb: runDartFormat,
       message: 'Formatting code in progress ..');
   await Future<void>.delayed(_duration);
+
+  await executeAndLog(
+      context: context,
+      cb: runMoveGeneratedApp,
+      message: 'Moving generated app in progress ..');
+  await Future<void>.delayed(_duration);
+
 }
 
 const _duration = Duration(milliseconds: 600);

@@ -1,10 +1,29 @@
+import 'dart:io' as io;
+
 import 'package:mason/mason.dart';
 
 import 'pre/available_platforms.dart';
 import 'pre/validate_name.dart';
 import 'pre/validate_org.dart';
 
-void run(HookContext context) {
+void checkIfExists(io.Directory dr) {
+  final present = dr.existsSync();
+  print(present ? 'exists' : 'does not exist');
+  if (!present) {
+    dr.createSync(recursive: true);
+  }
+}
+
+void run(HookContext context) async {
+  final packagePath = 'packages';
+  final dr = io.Directory(packagePath);
+
+  checkIfExists(dr);
+
+  final path = 'app';
+  final dir = io.Directory(path);
+
+  checkIfExists(dir);
   // Asserting our dart package name
   final name = context.vars['name'] as String;
   assertValidDartPackageName(name);
